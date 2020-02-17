@@ -6,7 +6,7 @@
 .scoreboard {
   width: 58%;
   margin: 10rem auto;
-  background-color: #0b5402;
+  background-color:lightskyblue ;
   color: white;
   border-radius: 0.5rem;
   margin-top: 10rem;
@@ -31,6 +31,7 @@
   border: 3px solid white;
   border-radius: 0.5rem;
   width: 15rem;
+  
 }
 
 .home {
@@ -118,5 +119,24 @@
 .awayButtons__touchdown,
 .awayButtons__fieldGoal {
   margin: 1rem;
+  border-radius: 4px;
+  background-color: lightskyblue;
+}
+
+/* my code stat here */
+
+.bottomButtons{
+  display: flex;
+  justify-content: space-around;
+  place-items: center;
+  margin: 2rem;
+  height: 90px;
+  
+
+}
+
+.bottomButtons button{
+  margin: 5px;
+  border: 1px solid white;
   border-radius: 4px;
 }
